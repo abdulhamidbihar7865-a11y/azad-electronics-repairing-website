@@ -133,6 +133,7 @@ footer .w{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-betwee
 .fl{position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0));background:rgba(10,18,38,.92);backdrop-filter:blur(12px);border-top:1px solid var(--line)}
 .fl a{flex:1;justify-content:center;padding:12px 8px;font-size:.95rem}
 @media(min-width:861px){.fl{left:auto;right:20px;bottom:20px;border:0;background:none;backdrop-filter:none;padding:0}.fl a{flex:none;padding:14px 22px}.fl .ig{display:none}body{padding-bottom:0}}
+[hidden]{display:none!important}
 .adm{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:20px;padding:14px 18px;border:1px dashed var(--y);border-radius:var(--r)}
 .gi{position:relative;margin:0;border-radius:var(--r);overflow:hidden;border:1px solid var(--line);background:var(--card)}
 .gi img,.gi video{width:100%;aspect-ratio:4/5;object-fit:cover;display:block}
@@ -212,7 +213,7 @@ footer .w{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-betwee
 
 <section class="why" id="gallery"><div class="w">
  <h2 data-i="t4">Hamare kaam ki jhalak</h2><p class="lead" data-i="t4p">Asli photos aur videos jald yahan aayenge.</p>
- <div id="adm" class="adm" hidden=""><b>Admin</b><button class="btn b1" id="addb" type="button">Photo jodein</button><input type="file" id="af" accept="image/*" hidden><input id="cap" placeholder="Caption (jaise: Amplifier repair)" style="max-width:260px"><input id="vl" placeholder="Video link (YouTube / Instagram)" style="max-width:260px"><button class="btn b3" id="vb" type="button">Video link jodein</button><span class="hint ast">Pehle caption likhein, phir photo ya link jodein. Hatane ke liye × dabayein.</span></div>
+ 
  <div class="gal">
   <div class="ph"><span data-i="g1">Amplifier ki repairing<small>Photo yahan aayegi</small></span></div>
   <div class="ph"><span data-i="g2">DJ set<small>Photo yahan aayegi</small></span></div>
