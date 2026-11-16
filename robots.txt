@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ajadelectronic.github.io/sitemap.xml
